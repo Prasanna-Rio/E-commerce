@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Register</title>
+
+    <!-- <link 
+      rel="stylesheet"
+      href="https://cdn.jsdeli vr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+
+    <link rel="stylesheet" href="/CSS/login.css" />
+  </head>
+
+  <body class="body">
+    <div class="main">
+      <input type="checkbox" id="chk" aria-hidden="true" />
+
+      <div class="signup">
+        <form id="registrationForm">
+          <label for="chk" aria-hidden="true">Sign up</label>
+          <input type="text" name="txt" placeholder="User name" />
+          <input type="email" name="email" placeholder="Email" />
+          <input type="password" name="pswd" placeholder="Password" />
+          <input type="submit" value="Register" class="button btn" />
+          <!-- <button class="button btn">Signup</button> -->
+          <!-- <a class="button btn">Signup</a> -->
+        </form>
+      </div>
+
+      <div class="login">
+        <form>
+          <label for="chk" aria-hidden="true">Login</label>
+          <input type="email" name="email" placeholder="Email" />
+          <input type="password" name="pswd" placeholder="Password" />
+          <input type="submit" id="login" value="Login" class="button btn" />
+
+          <!-- <a class="button btn" href="#">Login</a> -->
+        </form>
+      </div>
+    </div>
+    <script src="/JS/validation.js"></script>
+  </body>
+</html>

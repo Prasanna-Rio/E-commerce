@@ -1,0 +1,46 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>My Cart</title>
+  </head>
+  <body>
+    <h1>My Cart</h1>
+    <section id="cart-items">
+      <img
+        class="ethnic-img"
+        src="/img/banner/men/casual/cmen5.webp"
+        alt=""
+        srcset=""
+      />
+      <div class="add"><button class="productButton">Buy now</button></div>
+      <div class="add">
+        <button class="ethnic-a" onclick="addToCart('product6',847)" href="">
+          Add to cart
+        </button>
+      </div>
+    </section>
+
+    <script>
+      const cartItems = [];
+
+      function addToCart(product, price) {
+        cartItems.push({ product, price });
+        renderCartItems();
+      }
+
+      function renderCartItems() {
+        const cartSection = document.querySelector("#cart-items");
+        cartSection.innerHTML = "";
+
+        cartItems.forEach((item) => {
+          const productElement = document.createElement("div");
+          productElement.innerHTML = `
+            <h3>${item.product}</h3>
+            <p>Price: ${item.price}</p>
+          `;
+          cartSection.appendChild(productElement);
+        });
+      }
+    </script>
+  </body>
+</html> -->
